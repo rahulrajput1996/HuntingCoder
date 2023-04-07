@@ -5,11 +5,16 @@
 
 .mainnav ul li {
   display: flex;
-  text-decoration: none;
   margin: 0px 30px;
   font-weight: bold;
   font-size: larger;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainnav ul a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
 
 .mainHeading {
