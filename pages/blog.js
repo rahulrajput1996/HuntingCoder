@@ -2,7 +2,17 @@ import React from 'react'
 
 const Blog = () => {
     return (
-        <div>Blog</div>
+        <>
+            <style jsx global>
+                {`
+                .dummy{
+                    background:black;
+                    color:white;
+                }
+                `}
+            </style>
+            <div className='dummy'>Blog</div>
+        </>
     )
 }
 

@@ -4,6 +4,7 @@ import Script from 'next/script'
 import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Blog from './blog'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
         {/* <script src='/mysc.js'></script> */}
       </Head>
       <Script src="/mysc.js" strategy='lazyOnload'></Script>
+      <Blog />
       <nav className={styles.mainnav}>
         <ul>
           <Link href="/">
@@ -31,7 +33,7 @@ export default function Home() {
             <li>Blogs</li>
           </Link>
           <Link href="/contact">
-            <li>Contact</li>
+            <li className='dummy'>Contact</li>
           </Link>
         </ul>
       </nav>
