@@ -23,8 +23,15 @@
 
 .BlogTemp h2 {
   text-align: center;
+  font-size: 30px;
 }
 
 .BlogTemp div {
-  text-align: left;
+  margin-left: 20%;
+  font-size: 15px;
+}
+
+.myimg {
+  border-radius: 5%;
+  border: 2px solid rgb(55, 37, 37);
 }
